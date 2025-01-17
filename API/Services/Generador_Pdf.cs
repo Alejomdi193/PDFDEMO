@@ -40,7 +40,6 @@ namespace API.Services
                 .SetMargin(1)
                 .SetFontSize(10)
                 .SetFontSize(20));
-            doc.Add(new Paragraph("Anderson Cepedez").SetMargin(1));
             doc.Add(new Paragraph("Diego Muñoz").SetMargin(1));
             //metodo para agregar la fecha de creacion del pdf
             doc.Add(new Paragraph(date.ToString()).SetMargin(1));
